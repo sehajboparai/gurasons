@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/gurasons/static/css/main.eb9d8542.css",
-    "main.js": "/gurasons/static/js/main.ab2e8c91.js",
+    "main.js": "/gurasons/static/js/main.237a785d.js",
     "index.html": "/gurasons/index.html",
     "main.eb9d8542.css.map": "/gurasons/static/css/main.eb9d8542.css.map",
-    "main.ab2e8c91.js.map": "/gurasons/static/js/main.ab2e8c91.js.map"
+    "main.237a785d.js.map": "/gurasons/static/js/main.237a785d.js.map"
   },
   "entrypoints": [
     "static/css/main.eb9d8542.css",
-    "static/js/main.ab2e8c91.js"
+    "static/js/main.237a785d.js"
   ]
 }
