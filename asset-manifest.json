@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gurasons/static/css/main.eb9d8542.css",
+    "main.js": "/gurasons/static/js/main.ab2e8c91.js",
+    "index.html": "/gurasons/index.html",
+    "main.eb9d8542.css.map": "/gurasons/static/css/main.eb9d8542.css.map",
+    "main.ab2e8c91.js.map": "/gurasons/static/js/main.ab2e8c91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb9d8542.css",
+    "static/js/main.ab2e8c91.js"
+  ]
+}
