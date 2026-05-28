@@ -78,16 +78,16 @@ export default function Home() {
 
           <h1 style={{
             fontFamily: 'var(--font-head)', fontWeight: 800,
-            fontSize: 'clamp(40px, 6vw, 80px)',
+            fontSize: 'clamp(32px, 5.5vw, 64px)',
             lineHeight: 0.95, letterSpacing: '-2px',
             marginBottom: '1.5rem', maxWidth: 900,
           }}>
-            <div className="animate-fadeUp delay-2" style={{ color: 'var(--white)' }}>PROMINENT</div>
-            <div className="animate-fadeUp delay-3" style={{ color: 'var(--white)' }}>IMPORTER</div>
+            <div className="animate-fadeUp delay-2" style={{ color: 'var(--white)', fontSize: 'clamp(28px, 4.5vw, 48px)' }}>PROMINENT</div>
+            <div className="animate-fadeUp delay-3" style={{ color: 'var(--white)', fontSize: 'clamp(28px, 4.5vw, 48px)' }}>IMPORTER</div>
             <div className="animate-fadeUp delay-4" style={{
               background: 'linear-gradient(135deg, var(--gold), var(--gold-light))',
               WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
+              backgroundClip: 'text', fontSize: 'clamp(24px, 4vw, 44px)'
             }}>& SUPPLIER</div>
           </h1>
 

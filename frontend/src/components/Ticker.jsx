@@ -1,6 +1,6 @@
 const ITEMS = [
   'Broadcast Equipment', 'Harris Spares', 'NATUEL Products', 'RF Transistors',
-  'HVAC Systems', 'Importer & Exporter', 'Delhi Based', 'Akashvani Supplier',
+   'Importer & Exporter', 'Punjab Based', 'Akashvani Supplier',
   'Doordarshan Partner', '20+ Years Experience', 'Prasar Bharati',
 ];
 

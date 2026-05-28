@@ -10,8 +10,10 @@ export default function Footer() {
         <div className="footer-grid">
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-              <div className="nav-logo-box" style={{ fontSize: 20, padding: '6px 14px' }}>GURSONS</div>
-              <span className="nav-logo-sub">INDIA</span>
+              <div className="footer-logo">
+                <div className="footer-logo-line">GURSONS</div>
+                <div className="footer-logo-line">INDIA</div>
+              </div>
             </div>
             <p className="footer-desc">
               Prominent importer and supplier of broadcast equipment, RF transistors,

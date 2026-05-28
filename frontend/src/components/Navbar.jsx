@@ -30,8 +30,7 @@ export default function Navbar() {
       <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
         <div className="navbar-inner">
           <div className="nav-logo" onClick={() => go('/')}>
-            <div className="nav-logo-box">GURSONS</div>
-            <span className="nav-logo-sub">INDIA</span>
+            <img src="/images/Logo.jpeg" alt="Gursons India" className="nav-logo-img" />
           </div>
 
           <ul className="nav-links">

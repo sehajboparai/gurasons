@@ -184,7 +184,7 @@ a { color: inherit; text-decoration: none; }
 /* ─── NAVBAR ─────────────────────────────────────────────────── */
 .navbar {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-  padding: 0 2rem; height: 70px;
+  padding: 0 2rem; height: 120px;
   display: flex; align-items: center;
   border-bottom: 1px solid transparent;
   transition: var(--transition);
@@ -200,6 +200,11 @@ a { color: inherit; text-decoration: none; }
 }
 .nav-logo {
   display: flex; align-items: center; gap: 10px; cursor: pointer;
+  margin-left: -28px;
+}
+.nav-logo-img,
+.nav-logo img {
+  height: 110px; width: auto; display: block; transform: translateY(-10px);
 }
 .nav-logo-box {
   background: var(--white); color: var(--navy);
@@ -213,9 +218,15 @@ a { color: inherit; text-decoration: none; }
 .nav-links {
   display: flex; align-items: center; gap: 0.5rem; list-style: none;
 }
+
+/* Footer logo unified block */
+.footer-logo {
+  background: transparent; color: var(--white); padding: 0; border-radius: 0;
+}
+.footer-logo-line { font-family: var(--font-head); font-size: 18px; font-weight: 800; line-height: 1; color: var(--white); }
 .nav-links a {
-  padding: 8px 16px; font-size: 13px; font-weight: 500;
-  letter-spacing: 0.5px; color: var(--white-70);
+  padding: 10px 18px; font-size: 16px; font-weight: 600;
+  letter-spacing: 0.8px; color: var(--white-70); 
   transition: var(--transition); cursor: pointer; border-radius: 4px;
   position: relative;
 }
@@ -228,7 +239,7 @@ a { color: inherit; text-decoration: none; }
 .nav-links a:hover::after, .nav-links a.active::after { transform: scaleX(1); }
 .nav-cta {
   background: var(--white); color: var(--navy);
-  padding: 9px 22px; font-size: 13px; font-weight: 600;
+  padding: 12px 26px; font-size: 15px; font-weight: 700;
   border: none; cursor: pointer; border-radius: 2px;
   transition: var(--transition); font-family: var(--font-body);
   letter-spacing: 0.5px;
@@ -244,7 +255,7 @@ a { color: inherit; text-decoration: none; }
 }
 .mobile-menu {
   display: none; position: fixed;
-  top: 70px; left: 0; right: 0;
+  top: 120px; left: 0; right: 0;
   background: rgba(10,15,46,0.98);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid var(--navy-border);
@@ -354,10 +365,10 @@ footer {
 .page-enter { animation: fadeUp 0.5s ease forwards; }
 
 /* ─── TICKER ─────────────────────────────────────────────────── */
-.ticker-wrap { overflow: hidden; background: var(--gold); padding: 10px 0; }
+.ticker-wrap { overflow: hidden; background: var(--white); padding: 10px 0; }
 .ticker-track { display: flex; animation: ticker 35s linear infinite; white-space: nowrap; }
-.ticker-item { font-size: 12px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: var(--navy); padding: 0 2rem; }
-.ticker-sep { color: rgba(10,15,46,0.4); }
+.ticker-item { font-size: 12px; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; color: #111; padding: 0 2rem; }
+.ticker-sep { color: rgba(0,0,0,0.35); }
 
 /* ─── RESPONSIVE ─────────────────────────────────────────────── */
 @media (max-width: 768px) {
@@ -368,4 +379,12 @@ footer {
 }
 @media (max-width: 480px) {
   .footer-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 768px) {
+  .nav-logo-img,
+  .nav-logo img { height: 72px; transform: none; }
+  .nav-logo { margin-left: 0; }
+  .nav-links a { font-size: 14px; padding: 8px 10px; }
+  .nav-cta { padding: 10px 18px; font-size: 14px; }
 }
